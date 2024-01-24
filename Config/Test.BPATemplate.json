@@ -12,6 +12,7 @@
         }
       ],
       "where": "EnableFileFilter",
+      "StoreAs": "JSON",
       "API": "Exchange",
       "ExtractFields": [
         "EnableFileFilter"
