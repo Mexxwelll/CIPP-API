@@ -1,0 +1,22 @@
+{
+  "name": "Test",
+  "style": "Tenant",
+  "Fields": [
+    {
+      "name": "Ensure the Common Attachment Types Filter is enabled",
+      "UseExistingInfo": false,
+      "FrontendFields": [
+        {
+          "name": "EnableFileFilter",
+          "value": "EnableFileFilter"
+        }
+      ],
+      "where": "EnableFileFilter",
+      "API": "Exchange",
+      "ExtractFields": [
+        "EnableFileFilter"
+      ],
+      "Command": "Get-MalwareFilterPolicy -Identity Default"
+    }
+  ]
+}
