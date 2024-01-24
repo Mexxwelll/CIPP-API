@@ -5,14 +5,9 @@
     {
       "name": "Ensure the Common Attachment Types Filter is enabled",
       "UseExistingInfo": false,
-      "FrontendFields": [
-        {
-          "name": "EnableFileFilter",
-          "value": "EnableFileFilter"
-        }
-      ],
+      "FrontendFields": [],
       "where": "EnableFileFilter",
-      "StoreAs": "JSON",
+      "StoreAs": "bool",
       "API": "Exchange",
       "ExtractFields": [
         "EnableFileFilter"
